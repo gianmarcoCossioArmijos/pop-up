@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .open {
+        width: 100%;
+        opacity: 100%;
+    }
+
+    .close {
+        width: 0;
+        height: 0;
+        opacity: 0;
+    }
+}
